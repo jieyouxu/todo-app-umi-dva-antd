@@ -13,11 +13,21 @@ export function remove(id) {
 
 export function patch(id, values) {
   return request(`/api/todos/${id}`, {
-    'Content-Type': 'application/json',
     method: 'PATCH',
     headers: {
       'Accept': 'application/json',
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(values),
+  });
+}
+
+export function create(values) {
+  return request(`/api/todos`, {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(values),
   });

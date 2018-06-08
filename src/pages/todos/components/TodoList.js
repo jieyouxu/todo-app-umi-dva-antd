@@ -42,7 +42,7 @@ function TodoList({dispatch, todoList: dataSource, loading, total, page: current
   function handleCreate(values) {
     dispatch({
       type: 'todos/create',
-      payload: values,
+      payload: {values},
     });
   }
 
