@@ -1,0 +1,10 @@
+
+html, body, :global(#root) {
+  height: 100%;
+  background-color: #EFEFEF;
+}
+
+.normal {
+  margin: 0;
+  padding: 0;
+}

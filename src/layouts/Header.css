@@ -1,0 +1,24 @@
+.header {
+  background-color: cornflowerblue;
+  padding: 5rem 5rem 1rem 5rem;
+}
+
+.header__link {
+  color: aqua;
+}
+
+.header__link:hover {
+  color: powderblue;
+}
+
+.title-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 3rem;
+  color: #f7f7f7;
+}
+
+.header-container {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}

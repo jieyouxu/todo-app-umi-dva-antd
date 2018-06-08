@@ -1,0 +1,32 @@
+.todo-item {
+  border-left: 0.2rem solid grey;
+}
+
+.todo-item--completed {
+  border-left: 0.2rem solid grey;
+}
+
+.todo-item--pending {
+  border-left: 0.2rem solid dodgerblue;
+}
+
+.todo-item--overdue {
+  border-left: 0.2rem solid red;
+}
+
+.operation {
+  color: cornflowerblue;
+}
+
+.todo-list-container {
+  background-color: #fff;
+}
+
+.switch--completed {
+  background-color: green;
+}
+
+.switch--pending {
+  background-color: red;
+}
+
